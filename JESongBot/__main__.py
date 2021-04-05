@@ -8,12 +8,12 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Heya [{}](tg://user?id={}), I'm Song Downloader Bot [🎵](https://telegra.ph/file/8fc780bc79ff67d91d1ef.png)
 
 Just send me the song name you want to download.
 eg: ```/song Satisfya```
 
-A bot by @Infinity_BOTs
+A bot by [Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](t.me/DeshadeethThisarana)
 """
 
 
@@ -24,14 +24,18 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="Source", url="https://github.com/ImJanindu/JESongBot"
-                    ),
-                    InlineKeyboardButton(
-                        text="Dev", url="https://t.me/ImJanindu"
-                    )
+             [[
+                        InlineKeyboardButton(
+                            text="🧰 Support Group 🧰",
+                            url="https://t.me/Gangoffriends"),
+                         InlineKeyboardButton(
+                             text="📺 Update Channel 📺",
+                             url="https://t.me/gangoffriendschannel")
+                     ],
+                     [
+                        InlineKeyboardButton(
+                            text="➕ Add me to Your Group ↗️",
+                            url="https://t.me/Mr_Song_robot?startgroup=start")
                 ]
             ]
         )
@@ -41,5 +45,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("JESongBot is online.")
+LOGGER.info("Song bot is online.")
 idle()
