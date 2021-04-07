@@ -8,12 +8,15 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), I'm Song Downloader Bot [🎵](https://telegra.ph/file/8fc780bc79ff67d91d1ef.png)
+Heya [{}](tg://user?id={}), I'm Song Downloader Bot [🎵](https://telegra.ph/file/8fc780bc79ff67d91d1ef.png) created by [Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](t.me/DeshadeethThisarana)
 
 Just send me the song name you want to download.
-eg: ```/song Satisfya```
+  eg:`/song Satisfya`
 
-A bot by [Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](t.me/DeshadeethThisarana)
+©2021 [🛡Ģ₳ŇĞ🛡 ØF FŔĮĘŃĐŞ📝](http://t.me/gangoffriends) 
+©2021 [Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](http://t.me/DeshadeethThisarana) 
+
+⚠️All Rights Reserved⚠️
 """
 
 
